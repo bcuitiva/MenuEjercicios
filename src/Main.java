@@ -145,7 +145,7 @@ public class Main {
                 System.out.println("La nota para el primer corte es: " + notaP1);
                 System.out.println("La nota para el segundo corte es: " + notaP2);
                 System.out.println("La nota para el tercer corte es: " + notaP3);
-                System.out.println("La nota definitiva del semestre es: " + total);
+                System.out.println("La nota definitiva del semestre es: " + d.format(total));
                 if (total >= 3 && total <= 5){
                     System.out.println("Usted aprobo el semestre.");
                 } else if (total >= 1.9 && total < 3){
