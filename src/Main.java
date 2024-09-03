@@ -2,6 +2,9 @@ import java.text.DecimalFormat;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
+        // Brayan David Cuitiva Umbarila
+        // Codigo de menu para usar ley de ohm y calcular la nota final de un estudiante
+        // 29-08-2024
         Scanner sc = new Scanner(System.in);
         DecimalFormat d = new DecimalFormat("0.00");
         int menu = 0;
